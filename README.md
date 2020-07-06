@@ -30,10 +30,9 @@ yarn build
 You will will need to add the environment's path to the `testEnvironment` option in your `jest.config.js`. 
 
 ```JSON
-{
-  ...
+{ 
   "testEnvironment": ["<rootDir>/my-custom-environment.js"],
-  "testRunner": 'jest-circus/runner'
+  "testRunner": "jest-circus/runner"
 }
 ```
 
