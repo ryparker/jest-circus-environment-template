@@ -1,6 +1,50 @@
 # jest-circus-reporter-template
 
-A template for creating reporters/environments with Jest Circus
+[![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+
+A template for creating custom Jest Circus environments.
+
+## :rocket: Quick start
+
+1. Clone
+
+```shell
+git clone https://github.com/ryparker/jest-circus-environment-template.git jest-circus-environment && cd jest-circus-environment
+```
+
+2. Install dependencies
+
+```shell
+yarn install
+```
+
+3. Transpile to JS
+
+```shell
+yarn build
+```
+
+## :wrench: Using the environment
+
+You will will need to add the environment's path to the `testEnvironment` option in your `jest.config.js`. 
+
+```JSON
+{
+  ...
+  "testEnvironment": ["<rootDir>/my-custom-environment.js"],
+  "testRunner": 'jest-circus/runner'
+}
+```
+
+See the [official Jest docs](https://jestjs.io/docs/en/configuration#testenvironment-string) for more details.
+
+## :spiral_notepad: Gist
+
+If you'd rather not use this repository here is a Gist with the main interface for creating a Jest environment.
+
+[Gist of Jest-Circus-Environment-Interface](https://gist.github.com/ryparker/d3f5cc58913ba7e89b5c34eeabc7bfd9)
+
 
 ## Lifecycle events
 
