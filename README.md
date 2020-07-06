@@ -72,3 +72,7 @@ Updated list available [here](https://github.com/facebook/jest/blob/master/packa
 17. **run_finish**
 18. **teardown**
 19. teardown Fn
+
+## Related Projects
+
+Jest Reporter: [Template Project](https://github.com/ryparker/jest-reporter-template) | [Gist](https://gist.github.com/ryparker/188849eb0f78f53316ef99bf6a4467d5)
