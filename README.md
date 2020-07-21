@@ -5,6 +5,10 @@
 
 A template for creating custom Jest Circus environments.
 
+## :spiral_notepad: Gist
+
+If you'd rather not use this template, here is a [Gist](https://gist.github.com/ryparker/d3f5cc58913ba7e89b5c34eeabc7bfd9) with the main interface for creating a Jest environment.
+
 ## :rocket: Quick start
 
 1. Clone
@@ -37,12 +41,6 @@ You will will need to add the environment's path to the `testEnvironment` option
 ```
 
 See the [official Jest docs](https://jestjs.io/docs/en/configuration#testenvironment-string) for more details.
-
-## :spiral_notepad: Gist
-
-If you'd rather not use this repository here is a Gist with the main interface for creating a Jest environment.
-
-[Gist of Jest-Circus-Environment-Interface](https://gist.github.com/ryparker/d3f5cc58913ba7e89b5c34eeabc7bfd9)
 
 
 ## Lifecycle events
