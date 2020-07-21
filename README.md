@@ -35,7 +35,7 @@ You will will need to add the environment's path to the `testEnvironment` option
 
 ```JSON
 { 
-  "testEnvironment": ["<rootDir>/my-custom-environment.js"],
+  "testEnvironment": "<rootDir>/my-custom-environment.js",
   "testRunner": "jest-circus/runner"
 }
 ```
