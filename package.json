@@ -1,22 +1,18 @@
 {
   "name": "jest-circus-reporter-template",
   "version": "0.0.1",
-  "repository": "https://ryparker@github.com/ryparker/jest-circus-reporter-template.git",
+  "description": "<Provide your project description",
+  "repository": "<Provide a link to your repository>",
+  "author": "<Provide your author>",
   "license": "MIT",
   "files": [
     "dist"
   ],
   "main": "dist/index",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc",
-    "test": "jest __tests__",
-    "lint": "xo .",
-    "fix": "xo . --fix"
-  },
-  "xo": {
-    "extends": [
-      "plugin:jest/recommended"
-    ]
+    "test": "yarn build && jest"
   },
   "dependencies": {
     "@jest/environment": "^26.1.0",
@@ -28,10 +24,7 @@
   "devDependencies": {
     "@types/jest": "^26.0.5",
     "@types/node": "^14.0.24",
-    "eslint-config-xo-typescript": "^0.31.0",
-    "eslint-plugin-jest": "^23.18.0",
     "jest": "^26.1.0",
-    "typescript": "^3.9.7",
-    "xo": "^0.32.1"
+    "typescript": "^3.9.7"
   }
 }
