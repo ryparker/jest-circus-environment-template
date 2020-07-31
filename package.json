@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@jest/environment": "^26.1.0",
-    "@jest/reporters": "^26.1.0",
+    "@jest/reporters": "^26.2.1",
     "@jest/types": "^26.1.0",
     "jest-circus": "^26.1.0",
     "jest-environment-node": "^26.1.0"
