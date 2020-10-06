@@ -2076,19 +2076,7 @@ jest-environment-jsdom@^26.5.0:
     jest-util "^26.5.0"
     jsdom "^16.4.0"
 
-jest-environment-node@^26.3.0:
-  version "26.3.0"
-  resolved "https://registry.yarnpkg.com/jest-environment-node/-/jest-environment-node-26.3.0.tgz#56c6cfb506d1597f94ee8d717072bda7228df849"
-  integrity sha512-c9BvYoo+FGcMj5FunbBgtBnbR5qk3uky8PKyRVpSfe2/8+LrNQMiXX53z6q2kY+j15SkjQCOSL/6LHnCPLVHNw==
-  dependencies:
-    "@jest/environment" "^26.3.0"
-    "@jest/fake-timers" "^26.3.0"
-    "@jest/types" "^26.3.0"
-    "@types/node" "*"
-    jest-mock "^26.3.0"
-    jest-util "^26.3.0"
-
-jest-environment-node@^26.5.0:
+jest-environment-node@^26.3.0, jest-environment-node@^26.5.0:
   version "26.5.0"
   resolved "https://registry.yarnpkg.com/jest-environment-node/-/jest-environment-node-26.5.0.tgz#3f49ba40abe87209df96f7991015cac996e04563"
   integrity sha512-LaYl/ek5mb1VDP1/+jMH2N1Ec4fFUhSYmc8EZqigBgMov/2US8U5l7D3IlOf78e+wARUxPxUpTcybVVzAOu3jg==
