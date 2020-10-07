@@ -2207,6 +2207,18 @@ jest-util@^26.5.0, jest-util@^26.5.2:
     is-ci "^2.0.0"
     micromatch "^4.0.2"
 
+jest-util@^26.5.2:
+  version "26.5.2"
+  resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-26.5.2.tgz#8403f75677902cc52a1b2140f568e91f8ed4f4d7"
+  integrity sha512-WTL675bK+GSSAYgS8z9FWdCT2nccO1yTIplNLPlP0OD8tUk/H5IrWKMMRudIQQ0qp8bb4k+1Qa8CxGKq9qnYdg==
+  dependencies:
+    "@jest/types" "^26.5.2"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    graceful-fs "^4.2.4"
+    is-ci "^2.0.0"
+    micromatch "^4.0.2"
+
 jest-validate@^26.5.0:
   version "26.5.0"
   resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-26.5.0.tgz#6e417ec5066e315752da1350797a89fc5907f97a"
