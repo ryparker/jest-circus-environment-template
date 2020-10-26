@@ -18,7 +18,7 @@
     "@jest/environment": "^26.5.2",
     "@jest/reporters": "^26.6.0",
     "@jest/types": "^26.6.0",
-    "jest-circus": "^26.6.0",
+    "jest-circus": "^26.6.1",
     "jest-environment-node": "^26.6.0"
   },
   "devDependencies": {
